@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: url('fondo-ciudad.jpg.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+#boton-arriba:hover {
+  background-color: #0084b4;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h2 {
+  color: #00aced;
+}
+
+.inicio-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inicio-content img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+ul li img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.proyectos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proyecto {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.proyecto:hover {
+  transform: scale(1.1);
+}
+
+.proyecto img {
+  width: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #ccc;
+}
+#boton-arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00aced;
+  color: white;
+  font-size: 24px;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+#boton-arriba:hover {
+  background-color: #0084b4;
+}
